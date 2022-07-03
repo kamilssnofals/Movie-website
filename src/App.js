@@ -48,7 +48,7 @@ const App = () => {
         </div>
       ) : (
         <div>
-          <p>Movies not found </p>
+          <p style={{color:'red'}} >Movies not found </p>
         </div>
       )}
     </div>
